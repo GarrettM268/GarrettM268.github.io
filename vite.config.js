@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 module.exports = {
-	publicPath: process.env.NODE_ENV === "production" ? "GarrettM268.github.io" : "/",
+	publicPath: process.env.NODE_ENV === "production" ? "/" : "/",
   };
 
 // https://vitejs.dev/config/
