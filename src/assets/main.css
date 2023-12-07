@@ -11,11 +11,17 @@ body {
 	/* background-image: url('../src/assets/Photos-001/WhitePassSpring.JPG');
 	background-repeat: no-repeat;
 	background-size: cover; */
-	background-color: rgb(36, 35, 35);
-	height: 300vh;
+	
+	height: 100vh;
 	padding: 0px;
 	margin: 0px;
 	color:aliceblue;
+}
+.default {
+	background-color: rgb(36, 35, 35);
+}
+.bg-ice-climb {
+	background-image: url('../assets/Photos-001/ElevatorShaftRest.jpg');
 }
 #app {
 	width: 100%;

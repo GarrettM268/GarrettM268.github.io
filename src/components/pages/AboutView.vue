@@ -2,11 +2,6 @@
 	<div class="header-container">
 		<HeaderBar/>
 	</div>
-	<!-- <div class="container">
-		<div v-for="item in store.aboutItems">
-			<ContentContainer class="About-Content" v-bind:aboutItem="item"/>
-		</div>
-	</div> -->
 	<div class="content-container">
 		<div class="text-bar">
 			<p>I am a web developer and outdoors enthusiast studying compuer science at Montana State University.</p>
@@ -15,7 +10,6 @@
 </template>
 
 <script setup>
-	import ContentContainer from '../ContentContainer.vue'
 	import HeaderBar from '../HeaderBar.vue';
 	import { useAboutContentStore } from '../../Stores/useAboutContentStore';
 	
@@ -33,7 +27,7 @@
 	}
 	
 	.text-bar {
-		height: 250vh;
+		height: 40vh;
 		text-align: center;
 		background-color: darkslategray
 	}

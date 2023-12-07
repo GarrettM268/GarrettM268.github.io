@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 
+import VueBodyClass from 'vue-body-class';
 import HomeView from '../components/pages/HomeView.vue'
 import AboutView from '../components/pages/AboutView.vue'
 
@@ -7,12 +8,14 @@ const routes = [
 	{
 		path: '/', 
 		name: 'Home',
-		component: HomeView
+		component: HomeView,
+		meta: { bodyClass: 'default'}
 	}, 
 	{
 		path: '/About/',
 		name: 'About',
-		component: AboutView
+		component: AboutView,
+		meta: { bodyClass: 'bg-ice-climb' }
 	}
 ]
 
@@ -21,5 +24,8 @@ const router = createRouter({
 	history: createWebHistory(),
 	routes,
 })
+
+const vueBodyClass = new VueBodyClass(routes);
+router.beforeEach((to, from, next) => { vueBodyClass.guard(to, next) });
 
 export default router

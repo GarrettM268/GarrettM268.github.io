@@ -10,7 +10,6 @@
 </script>
 
 <style>
-	
 	h1 {
 		padding-left: 2%;
 		margin-top:0px;
