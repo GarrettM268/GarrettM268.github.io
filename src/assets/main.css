@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+body,html {
+    margin: 0;
+    padding: 0;
+}
+body {
+	/* background-image: url('../src/assets/Photos-001/WhitePassSpring.JPG');
+	background-repeat: no-repeat;
+	background-size: cover; */
+	background-color: rgb(36, 35, 35);
+	height: 300vh;
+	padding: 0px;
+	margin: 0px;
+	color:aliceblue;
+}
+#app {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+.header {
+	width: 50%;
+	height: 15%;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.nav-link {
+	color:lightblue;
+	text-decoration: none;
+	padding:10px;
+}
+
+.nav-link:hover {
+	font-size: 60;
+	text-decoration: underline;
+}
+
+.nav-link.router-link-active {
+	background-color: rgba(231, 218, 218, 0.464);
+	border-radius: 3px;
+}
+
+#nav li {
+	display: inline;
+	float: right;
+	padding: 3%;
+	
+}
+
+.header-container {
+	border-bottom-width:2px;
+	border-bottom-style:solid;
+	border-color:slategray;
+	position: fixed;
+	top: 0;
+	width:100%;
+	backdrop-filter: blur(5px);
+}
