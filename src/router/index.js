@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import VueBodyClass from 'vue-body-class';
 import HomeView from '../components/pages/HomeView.vue'
 import AboutView from '../components/pages/AboutView.vue'
-
+import TodoView from '../components/pages/TodoView.vue'
 const routes = [
 	{
 		path: '/', 
@@ -16,6 +16,12 @@ const routes = [
 		name: 'About',
 		component: AboutView,
 		meta: { bodyClass: 'bg-ice-climb' }
+	},
+	{
+		path: '/Todo/',
+		name: 'Todo',
+		component: TodoView,
+		meta: { bodyClass: 'default'}
 	}
 ]
 

@@ -22,6 +22,8 @@ body {
 }
 .bg-ice-climb {
 	background-image: url('../assets/Photos-001/ElevatorShaftRest.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 #app {
 	width: 100%;
