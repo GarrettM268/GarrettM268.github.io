@@ -3,12 +3,16 @@
 		<HeaderBar/>
 	</div>
 	<div class="card-container">
-		<RouterLink :to="{ name: 'Todo' }" tag="div" class="app-card">
-			
+		<RouterLink :to="{ name: 'Todo' }" tag="div">
+			<div class="app-card">
+				<p>A to-do app built with Vue3 </p>
+			</div>
 		</RouterLink>
-		<div class="app-card">
-			adobe spark page
-		</div>
+		<a href="https://new.express.adobe.com/webpage/UqguRAH60miwF">
+			<div class="app-card">
+				<p>A UX Design course semester project</p>
+			</div>
+		</a>
 	</div>
 </template>
 
@@ -16,12 +20,20 @@
 	import HeaderBar from '../HeaderBar.vue';
 </script>
 
-<style>
+<style scoped>
 	.app-card {
 		width: 25rem;
 		height: 25rem;
 		background-color: rgb(56, 99, 56);
 		border-radius:  1.5rem;
+		color: white;
+		text-align: center;
+	}
+	p {
+		padding-top: 45%;
+	}
+	a:visited {
+  		color: white !important; /* Ensures visited links also appear white */
 	}
 	.app-card:hover {
 		width: 26rem;
