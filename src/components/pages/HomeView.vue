@@ -37,15 +37,17 @@
 				<div class="pb-10">
 					I wrote my first lines of code my final year of highschool, when my shool offered its first ever programming class. Fast forward to today, and I am graduating with a Bachelor of Science in computer science from Montana State University. During my journey at MSU, I was exposed to dozens of programming languages, and I ultimately found a passion in web development - I was hooked on the creative process of creating UIs, along with the problem solving challenge that comes with app development.
 				</div>
-				<div class="pb-20">
+				<div class="pb-10">
 					After my junior year at Montana State I was fortunate to work a summer internship with Status Controls, a software company based in Washington. There, I developed web applications using VueJS. I worked as part of a small team, where we created custom HTML5 applications that interact with crestron control processors to control audio, video, and other devices in commercial and residential buildings. I was able to learn a lot about the software development process, and I was able to see the impact of my work in the real world. As of fall 2024, I am finishing up the last 6 credits of my degree while working full time as an entry level developer with Status Controls. 
+				</div>
+				<div class="pb-20">
+					When Im not at my computer, I spend as much time in the mountains as possible. I love to ski, hunt, camp and backpack, climb both rocks and ice, and pretty much any other pursuit that gets me outside and active.
 				</div>
 			</section>
 			<section id="education" class="pb-20">
 				<Card 
-					:tags="['csci440', 'csci132']" 
+					:tags="['csci331', 'csci440', 'esof322', 'csci466']" 
 					size="full-width"
-					
 				>
 					<template #dates>2020 - 2024</template>
 					<template #title> 
@@ -53,7 +55,7 @@
 						<span> Montana State University </span>
 					</template>
 					<template #content>
-						Relevant Coursework:
+						Some Relevant Coursework:
 						<ul>
 							<li> Full Stack Web Development </li>
 							<li> Database Systems </li>
