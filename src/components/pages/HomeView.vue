@@ -1,9 +1,11 @@
 <template>
 	<article class="max-h-screen w-full flex px-40 pt-20  gap-4 text-slate-500">
 		<div id="menu" class="h-full w-1/2 flex-items-center justify-center">
-			<div class="font-size-huge mb-5 text-white"> Garrett Mullings </div>
-			<div class="font-size-large mb-4 text-white"> Aspiring Frontend Developer </div>
-			<div class="font-size-small mb-2"> Learning while building reliable and beautiful UIs. </div>
+			<div id="name">
+				<div class="font-size-huge mb-5 text-white"> Garrett Mullings </div>
+				<div class="font-size-large mb-4 text-white"> Aspiring Frontend Developer </div>
+				<div class="font-size-small mb-2"> Learning while building reliable and beautiful UIs. </div>
+			</div>
 			
 			<ul>
 				<li 
@@ -65,7 +67,7 @@
 					</template>
 				</Card>
 			</section>
-			<section id="work-experience">
+			<section id="work-experience" class="flex flex-col gap-10 pb-20">
 				<Card 
 				:tags="['VueJs', 'HTML', 'CSS', 'JavaScript']" 
 				size="full-width"
