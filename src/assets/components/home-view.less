@@ -1,0 +1,19 @@
+article {
+	background-color: var(--app-background);
+
+	.line {
+		height: 2px;
+		width: 32px;
+		background-color: var(--color-light);
+		transition: width 0.3s ease;
+	}
+	#menu {
+		li:hover, li.active {
+			.line{
+				width: 64px;
+				background-color: var(--color-accent-dark);
+			}
+			color: var(--color-accent-dark) !important;
+		}
+	}
+}

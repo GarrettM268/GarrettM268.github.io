@@ -1,29 +1,13 @@
-# PersonalWebsite
+# Garrett Mullings's personal website
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a personal website that I created to showcase my projects and experiences. It is built using Vue3. The website is hosted on GitHub Pages and can be accessed at [https://garrettmullings.github.io/](https://garrettmullings.github.io/).
 
-## Recommended IDE Setup
+## Notes for me
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### To run the website locally
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run serve`
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+### To deploy to the live website
+1. Run `npm run deploy`

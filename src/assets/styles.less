@@ -1,0 +1,31 @@
+@import './components/header.less';
+@import './components/home-view.less';
+@import './components/card.less';
+
+html {
+	overflow: hidden;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+
+.page {
+	display: grid;
+	grid-template-rows: 1fr;
+	height: 100vh;
+}
+
+
+#mouse-glow {
+	position: absolute;
+	width: 700px; /* Increase size for a smoother gradient */
+	height: 700px; /* Increase size for a smoother gradient */
+	background: radial-gradient(circle, rgba(29, 78, 216, 0.15) 0%, transparent 70%);
+	border-radius: 50%;
+	pointer-events: none;
+	transform: translate(-50%, -50%);
+	transition: transform 0.1s ease-out;
+  }

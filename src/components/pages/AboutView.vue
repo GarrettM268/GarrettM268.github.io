@@ -1,7 +1,4 @@
 <template>
-	<div class="header-container">
-		<HeaderBar/>
-	</div>
 	<div class="content-container">
 		<div class="text-bar">
 			<p>

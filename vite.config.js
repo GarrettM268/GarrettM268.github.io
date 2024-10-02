@@ -8,6 +8,13 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  css: {
+    preprocessorOptions: {
+      less: {
+        // Add any Less-specific options here
+      },
+    },
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
