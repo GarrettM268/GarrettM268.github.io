@@ -48,7 +48,7 @@
 			</section>
 			<section id="education" class="pb-20">
 				<Card 
-					:tags="['csci331', 'csci440', 'esof322', 'csci466']" 
+					:tags="['csci331', 'csci440', 'esof322', 'csci466', 'csci468', 'csci495']" 
 					size="full-width"
 				>
 					<template #dates>2020 - 2024</template>
@@ -63,6 +63,8 @@
 							<li> Database Systems </li>
 							<li> Software Engineering </li>
 							<li> Networks </li>
+							<li> Compilers </li>
+							<li> Lab Assistant</li>
 						</ul>
 					</template>
 				</Card>
@@ -72,13 +74,13 @@
 				:tags="['VueJs', 'HTML', 'CSS', 'JavaScript']" 
 				size="full-width"
 				>
-				<template #dates>May 2023 - august 2023</template>
+				<template #dates>May 2023 - August 2023</template>
 				<template #title> 
-					<span> internship </span>
+					<span> Internship </span>
 					<span> Status Controls </span>
 				</template>
 				<template #content>
-					Learned VueJS/ Learned many wed development technologies, and learned how to work in a professional software development environment. Began creating Vue components for use in custom web applications. The web applicaitons communicate with Crestron control processors to control AV systems. 
+					During this internship, I Learned VueJS, and Gained much more experience developing with HTML/CSS/JS. I learned how to work in a professional software development environment, where I createed Vue components for use in custom web applications. The web applications communicate with Crestron control processors to control AV systems in stadiums, lecture halls, conference rooms, and homes.
 				</template>
 				</Card>
 				<Card 
@@ -91,7 +93,7 @@
 						<span> Status Controls </span>
 					</template>
 					<template #content>
-						Developed web applications that communicate with Crestron control processors to control AV systems. Designed and developed both full UIs and individual components to implement requested features. 
+						After my internship, I was able to come back as a full time developer for StatusControls. As an entry level developer, i have had the oppurtunity to have full autonomy when designing a UI for a client. I got to go through the creative process of UI design, plan the architecture of the front end, and implement the design on my own. I also had the opputunity to fully design and implement multiple new features as requested by clients, under the supervision of a senior developer.
 					</template>
 				</Card>
 			</section>
