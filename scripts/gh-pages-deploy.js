@@ -11,7 +11,6 @@ if (!GITHUB_TOKEN) {
   process.exit(1);
 }
 
-import { existsSync } from "fs";
 (async () => {
   try {
     await execa("git", ["checkout", "--orphan", "gh-pages"]);
