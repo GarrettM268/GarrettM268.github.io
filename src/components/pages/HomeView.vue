@@ -74,7 +74,7 @@
 				>
 				<template #dates>May 2023 - august 2023</template>
 				<template #title> 
-					<span> internship </span>	
+					<span> internship </span>
 					<span> Status Controls </span>
 				</template>
 				<template #content>
@@ -108,45 +108,31 @@ const scrollToSection = (sectionId) => {
 	const section = document.getElementById(sectionId);
 	if (section) {
 		section.scrollIntoView({ behavior: 'smooth' });
+		currentSection.value = sectionId;
+		console.log('section', currentSection.value);
 	}
 };
 
 const observeSections = () => {
 	const sections = document.querySelectorAll('section');
-	const observer = new IntersectionObserver((entries) => {
-		entries.forEach(entry => {
-			if (entry.isIntersecting) {
-				currentSection.value = entry.target.id;
-			}
-		});
-	}, { threshold: 0.9, rootMargin: '0px' });
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    currentSection.value = entry.target.id;
+                }
+            });
+        },
+        {
+            rootMargin: '75% 0px 0px 0px',
+            threshold: 0.2 // Adjust threshold as needed
+        }
+    );
 	
 	sections.forEach(section => observer.observe(section));
-	
-	const handleScroll = () => {
-		let closestSection = null;
-		let closestDistance = Infinity;
 		
-		sections.forEach(section => {
-			const rect = section.getBoundingClientRect();
-			const distance = Math.abs(rect.top);
-			
-			if (distance < closestDistance) {
-				closestDistance = distance;
-				closestSection = section;
-			}
-		});
-		
-		if (closestSection) {
-			currentSection.value = closestSection.id;
-		}
-	};
-	
-	window.addEventListener('scroll', handleScroll);
-	
 	return () => {
 		sections.forEach(section => observer.unobserve(section));
-		window.removeEventListener('scroll', handleScroll);
 	};
 };
 

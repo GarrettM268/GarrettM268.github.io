@@ -554,6 +554,10 @@ video {
   display: none;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -576,6 +580,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-1\/4 {
+  height: 25%;
 }
 
 .max-h-full {
@@ -644,6 +652,11 @@ video {
 
 .border {
   border-width: 1px;
+}
+
+.bg-red-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
 }
 
 .p-2 {
