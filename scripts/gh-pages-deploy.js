@@ -1,5 +1,15 @@
 /* eslint-disable no-console */
 import { execa } from "execa";
+import dotenv from "dotenv";
+import { existsSync } from "fs";
+
+dotenv.config();
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+
+if (!GITHUB_TOKEN) {
+  console.error("GITHUB_TOKEN is not set");
+  process.exit(1);
+}
 
 import { existsSync } from "fs";
 (async () => {
@@ -13,7 +23,12 @@ import { existsSync } from "fs";
     await execa("git", ["--work-tree", folderName, "add", "--all"]);
     await execa("git", ["--work-tree", folderName, "commit", "-m", "gh-pages"]);
     console.log("Pushing to gh-pages...");
-    await execa("git", ["push", "origin", "HEAD:gh-pages", "--force"]);
+    await execa("git", [
+      "push",
+      "--force",
+      `https://${GITHUB_TOKEN}@github.com/GarrettM268/GarrettM268.github.io.git`,
+      "HEAD:gh-pages",
+    ]);
     await execa("rm", ["-r", folderName]);
     await execa("git", ["checkout", "-f", "main"]);
     await execa("git", ["branch", "-D", "gh-pages"]);
