@@ -29,3 +29,36 @@ html {
 	transform: translate(-50%, -50%);
 	transition: transform 0.1s ease-out;
   }
+
+  @media (max-width: 800px) {
+	article {
+		padding-right: 5%;
+		padding-left: 5%;
+		display: grid !important;
+		grid-template-rows: min-height 1fr;
+		#name {
+			display: flex;
+			flex-direction: row;
+			gap: 50px;
+			border-bottom: 5px solid white;
+			color: white;
+			div {
+				text-align: center;
+				width: 33%;
+			}
+			.desc {
+
+				font-size: calc(1.3 * 20px);
+			}
+		}
+		#menu {
+			width: 100%;
+			ul {
+				display: none;
+			}
+		}
+		#content {
+			width: 100%;
+		}
+	}
+  }
