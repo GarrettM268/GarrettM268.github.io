@@ -626,6 +626,10 @@ video {
   gap: 1rem;
 }
 
+.gap-20 {
+  gap: 5rem;
+}
+
 .overflow-auto {
   overflow: auto;
 }
@@ -679,10 +683,6 @@ video {
 
 .pt-20 {
   padding-top: 5rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
 }
 
 .text-slate-500 {
