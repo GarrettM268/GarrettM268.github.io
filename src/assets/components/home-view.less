@@ -1,11 +1,12 @@
 article {
+	color: var(--font-color);
 	background-color: var(--app-background);
 	padding-right: 10%;
 	padding-left: 10%;
 	.line {
 		height: 2px;
 		width: 32px;
-		background-color: var(--color-light);
+		background-color: var(--color-accent);
 		transition: width 0.3s ease;
 	}
 	#menu {
@@ -16,5 +17,23 @@ article {
 			}
 			color: var(--color-accent-dark) !important;
 		}
+	}
+
+	#name {
+		color: var(--header-font-color);
+	}
+
+	#content {
+		// &::before {
+		// 	content: '';
+		// 	display: block;
+		// 	position: absolute;
+		// 	right: calc(100% + .5 * var(--length-big));
+		// 	top: 0;
+		// 	bottom: 0;
+		// 	width: 1px;
+		// 	background: var(--color-accent);//rgba(0, 0, 0, 0.2);
+		// 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+		// }
 	}
 }

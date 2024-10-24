@@ -17,9 +17,6 @@
 
 <script setup>
 	import HeaderBar from '../HeaderBar.vue';
-	import { useAboutContentStore } from '../../Stores/useAboutContentStore';
-	
-	const store = useAboutContentStore();
 </script>
 
 <style scoped>

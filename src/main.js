@@ -5,7 +5,7 @@ import router from './router'
 import { createPinia } from 'pinia'
 import './index.css'
 import './assets/variables.less'
-
+import './assets/themes.less'
 const app = createApp(App)
 app.use(router)
 app.use(createPinia())

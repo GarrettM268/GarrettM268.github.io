@@ -1,10 +1,9 @@
 <template>
-	<article class="max-h-screen w-full flex pt-20 gap-4 text-slate-500">
+	<article class="max-h-screen w-full flex pt-20 gap-4">
 		<div id="menu" class="h-full w-1/2 flex-items-center justify-center">
 			<div id="name">
-				<div class="font-size-huge mb-5 text-white"> Garrett Mullings </div>
-				<div class="font-size-large mb-4 text-white"> Aspiring Frontend Developer </div>
-				<div class="font-size-small mb-2 desc"> Learning while building reliable and beautiful UIs. </div>
+				<div class="font-size-huge mb-5"> Garrett Mullings </div>
+				<div class="font-size-large mb-4"> Website and app developer</div>
 			</div>
 			
 			<ul>
@@ -14,7 +13,7 @@
 					@click="scrollToSection('about')"
 				> 
 					<div class="line"></div> 
-					<span> About </span> 
+					<span> About Me</span> 
 				</li>
 				<li 
 					class="flex items-center gap-1"
@@ -104,6 +103,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
 import Card from '@/components/Card.vue';
+
 const currentSection = ref('about');
 
 const scrollToSection = (sectionId) => {
@@ -163,6 +163,7 @@ onMounted(() => {
 		unobserve();
 	});
 });
+
 </script>
 
 <style scoped>

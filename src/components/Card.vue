@@ -64,6 +64,6 @@ const cardSize = computed(() => {
 
 <style scoped>
 	.card:hover {
-		background-color: rgba(67, 67, 102, 0.5);
+		background-color: var(--highlight-color);
 	}
 </style>

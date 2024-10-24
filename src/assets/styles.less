@@ -2,16 +2,19 @@
 @import './components/home-view.less';
 @import './components/card.less';
 
+//for scroll behaviour
 html {
 	overflow: hidden;
 }
 
+//hide scroll bars
 ::-webkit-scrollbar {
 	width: 0;
 	height: 0;
 }
 
 
+//main content, grid template can be cahnged to easily add headers, footers, etc without any other style changes.
 .page {
 	display: grid;
 	grid-template-rows: 1fr;
@@ -19,6 +22,7 @@ html {
 }
 
 
+//Styles for the 'glow' effect behind the mouse. only visible on desktop
 #mouse-glow {
 	position: absolute;
 	width: 700px; /* Increase size for a smoother gradient */
@@ -28,9 +32,10 @@ html {
 	pointer-events: none;
 	transform: translate(-50%, -50%);
 	transition: transform 0.1s ease-out;
-  }
+}
 
-  @media (max-width: 800px) {
+//styles for smaller screens (mobile)
+@media (max-width: 800px) {
 	article {
 		padding-right: 5%;
 		padding-left: 5%;
