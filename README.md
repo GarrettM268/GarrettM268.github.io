@@ -17,8 +17,6 @@ This is a personal website that I created to showcase my projects and experience
 - [ ] style updates: 
 	- [ ] borders and box shadows around cards and between menu and content
 
-- [ ] Redo the about text, maybe too much about info/less generic corporate/resume words (i.e 'passionate', etc)
-
 - [ ] Add a 'contact me' section, with links to my email, linkedin, github, etc
 
 - [ ] Add a proficient technologies section, with logos of technologies I am proficient in (my stack)
