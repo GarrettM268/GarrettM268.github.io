@@ -26,6 +26,7 @@ This is a personal website that I created to showcase my projects and experience
 - [ ] add a portfolio section, new router view, scroll the whole page?
 
 ### Side projects in progress:
+#### These projects can be found in my github repositories, and are in various stages of completion. Reach out to me if you have any questions regarding any of them!
 - [ ] iOS Weather App, written in swift using NOAAs API for weather data - hopefully deployed to the app store this winter!
 
 - [ ] Personal Blog Site, written in Vue3. Maybe use markdown files for posts?
