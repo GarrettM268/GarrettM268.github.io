@@ -39,7 +39,7 @@
 					I am a soon-to-be computer science graduate, already with about a year of professional experience working for Status Controls. During My time at Status Controls, I had the oppurtunity to work on a variety of projects, rapidly expanding my tool box of technologies. For most projects, I honed my skills using vue3 and javascript to create responsive web applicaitions, as well as CSS and HTML to create visually appealing user interfaces. 
 				</div>
 				<div>
-					I find a lot of satisfaction and enjoyment from seeing ideas and designs come to life through the power of modern web technologies. Aside from the technical aspects of software development, I have always been motivated by the fact so many people seem to hate working with computers and technology - I believe the core purpose of technology is to make our lives easier, and I am driven to create software that does just that.
+					I find a lot of satisfaction and enjoyment from seeing ideas and designs come to life through the power of modern web technologies. Aside from the technical aspects of software development, I have always been motivated by the fact so many people seem to hate working with computers and technology - I believe the core purpose of this industry is to make life easier and more enjoyable for people, and I strive to make that a reality in my work.
 				</div>
 				<div>
 					When Im not at my computer, I spend as much time in the mountains as possible. I love to ski, hunt, camp and backpack, climb both rocks and ice, and pretty much any other pursuit that gets me outside and active.
