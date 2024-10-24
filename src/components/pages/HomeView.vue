@@ -33,7 +33,7 @@
 				</li>
 			</ul>
 		</div>
-		<div id="content" class="max-h-full overflow-auto w-1/2 flex flex-col gap-20 pb-20">
+		<div id="content" class="max-h-full overflow-auto w-1/2 flex flex-col items-center gap-20 pb-20">
 			<section id="about" class="about p-4 pb-20 font-size-tiny flex flex-col gap-10">
 				<div>
 					I am a soon-to-be computer science graduate, already with about a year of professional experience working for Status Controls. During My time at Status Controls, I had the oppurtunity to work on a variety of projects, rapidly expanding my tool box of technologies. For most projects, I honed my skills using vue3 and javascript to create responsive web applicaitions, as well as CSS and HTML to create visually appealing user interfaces. 
@@ -45,7 +45,7 @@
 					When Im not at my computer, I spend as much time in the mountains as possible. I love to ski, hunt, camp and backpack, climb both rocks and ice, and pretty much any other pursuit that gets me outside and active.
 				</div>
 			</section>
-			<section id="education" class="">
+			<section id="education" class="flex flex-col items-center">
 				<Card 
 					:tags="['csci331', 'csci440', 'esof322', 'csci466', 'csci468', 'csci495']" 
 					size="full-width"
@@ -68,7 +68,7 @@
 					</template>
 				</Card>
 			</section>
-			<section id="work-experience" class="flex flex-col gap-10">
+			<section id="work-experience" class="flex flex-col items-center gap-10">
 				<Card 
 				:tags="['VueJs', 'HTML', 'CSS', 'JavaScript']" 
 				size="full-width"

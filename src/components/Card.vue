@@ -55,7 +55,7 @@ const cardSize = computed(() => {
         };
       } else if (props.size === 'full-width') {
 		return {
-		  width: '100%',
+		  width: '95%',
 		  minHeight: '425px',
 		};
 	}
