@@ -11,3 +11,23 @@ This is a personal website that I created to showcase my projects and experience
 
 ### To deploy to the live website
 1. Run `npm run deploy`
+
+
+### WiP features
+- [ ] style updates: 
+	- [ ] borders and box shadows around cards and between menu and content
+
+- [ ] Redo the about text, maybe too much about info/less generic corporate/resume words (i.e 'passionate', etc)
+
+- [ ] Add a 'contact me' section, with links to my email, linkedin, github, etc
+
+- [ ] Add a proficient technologies section, with logos of technologies I am proficient in (my stack)
+
+- [ ] redo internship and work experience cards, add link to status controls website
+
+- [ ] add a portfolio section, new router view, scroll the whole page?
+
+### Side projects in progress:
+- [ ] iOS Weather App, written in swift using NOAAs API for weather data - hopefully deployed to the app store this winter!
+
+- [ ] Personal Blog Site, written in Vue3. Maybe use markdown files for posts?
