@@ -79,11 +79,11 @@
 					<span> Status Controls </span>
 				</template>
 				<template #content>
-					During this internship, I Learned VueJS, and Gained much more experience developing with HTML/CSS/JS. I learned how to work in a professional software development environment, where I createed Vue components for use in custom web applications. The web applications communicate with Crestron control processors to control AV systems in stadiums, lecture halls, conference rooms, and homes.
+					As an intern, I had my first exposure to real world software development. This company build custom audio video applications that communicate with crestron control processors in order to control lights, TVs, shades, or any other smart devices a client may have. I learned how to use VueJS to create components for these custom web applications, and learned how to work in a small team of developers.
 				</template>
 				</Card>
 				<Card 
-					:tags="['VueJs', 'HTML', 'CSS', 'JavaScript', 'WS', 'Cypress', 'Docker', 'Prisma']" 
+					:tags="['VueJs', 'HTML', 'CSS', 'JavaScript', 'WS', 'Cypress', 'Docker', 'Prisma', 'Figma']" 
 					size="full-width"
 				>
 					<template #dates>May 2024 - Present</template>
@@ -92,7 +92,7 @@
 						<span> Status Controls </span>
 					</template>
 					<template #content>
-						After my internship, I was able to come back as a full time developer for StatusControls. As an entry level developer, i have had the oppurtunity to have full autonomy when designing a UI for a client. I got to go through the creative process of UI design, plan the architecture of the front end, and implement the design on my own. I also had the opputunity to fully design and implement multiple new features as requested by clients, under the supervision of a senior developer.
+						After the internship and my senior year of school, I was brought on as an entry level developer at Status Controls. I updated clients programs from our old program, built with Vue2 to the new version which was built with Vue3. I developed new features, such as an offline devices tracker, for the companies SaaS product, Ascent Room Manager. I also built the full UI of a program for a university. The program allowed 2 particular users to control cameras in other classrooms.
 					</template>
 				</Card>
 			</section>
