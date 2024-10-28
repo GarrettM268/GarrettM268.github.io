@@ -3,7 +3,7 @@
 		class="card rounded-xl p-4 flex flex-col items-center text-wrap"
 		:style="cardSize"	
 	>
-		<div class="flex flex-col">
+		<div class="flex flex-col gap-2">
 			<slot name="dates" id="dates"></slot>
 			<slot name="title" id="title"></slot>
 			<slot name="content" id="content"></slot>
